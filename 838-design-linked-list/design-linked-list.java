@@ -17,17 +17,13 @@ class MyLinkedList {
         size = 0;
     }
     public int get(int index) {
-
         if (index < 0 || index >= size) {
             return -1;
         }
-
         Node temp = head;
-
         for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
-
         return temp.data;
     }
     public void addAtHead(int val) {
