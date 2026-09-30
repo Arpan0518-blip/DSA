@@ -25,9 +25,7 @@ class Solution {
                 ListNode a = new ListNode(temp2.val);
                 temp.next= a;
                 temp = a;
-                temp2 = temp2.next;
-            
-
+                temp2 = temp2.next; 
             }
         }
         if(temp1 == null){
